@@ -1,0 +1,97 @@
+.container {
+  width: 80%;
+  height: 100%;
+  position: relative;
+  margin: 0px auto;
+}
+
+.nav {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 10px;
+  background-color: #505050;
+}
+
+.heading {
+  text-align: center;
+  color: white;
+  line-height: 50px;
+}
+
+.user-list {
+  position: absolute;
+  border: 1px solid #ebedf0;
+  top: 0px;
+  bottom: 10px;
+  left: 0px;
+  width: 30%;
+  height: calc(100vh - 70px);
+  padding: 15px;
+  overflow: auto;
+}
+
+.message {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  width: calc(70% - 2px);
+}
+
+.selected-user {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background-color: white;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #ebedf0;
+  border-left: 1px solid #ebedf0;
+  border-right: 1px solid #ebedf0;
+  padding: 10px;
+}
+
+.message-list {
+  position: absolute;
+  padding: 15px;
+  left: 0px;
+  right: 0px;
+  top: 70px;
+  bottom: 50px;
+  overflow: hidden;
+  background-color: white;
+  border: 1px solid #ebedf0;
+  height: calc(100vh - 175px);
+}
+
+.message-item {
+  clear: both;
+  padding: 10px;
+  width: 40%;
+  border-radius: 10px;
+  margin: 5px;
+  word-break: break-all;
+}
+
+.message-input {
+  position: absolute;
+  height: 35px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  top: calc(100vh - 105px);
+  overflow: hidden;
+  background-color: white;
+}
+
+.inputChat {
+  width: calc(100% - 84px);
+  margin: 2px;
+  height: 33px;
+}
+
+.btnSend {
+  width: 80px;
+}

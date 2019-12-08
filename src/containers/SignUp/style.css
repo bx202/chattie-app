@@ -1,0 +1,18 @@
+.register-panel {
+  max-width: 400px;
+  height: 750px;
+  margin: auto;
+  padding-top: 170px;
+  text-align: center;
+}
+
+.login-panel {
+  padding-top: unset;
+  height: unset;
+  min-height: unset;
+  text-align: left;
+}
+
+.login-form-button {
+  width: 100%;
+}

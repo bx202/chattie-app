@@ -1,0 +1,19 @@
+{
+    "master": {
+        "awscloudformation": {
+            "AuthRoleName": "chattie-master-20190629232108-authRole",
+            "UnauthRoleArn": "arn:aws:iam::468982074756:role/chattie-master-20190629232108-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::468982074756:role/chattie-master-20190629232108-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "chattie-master-20190629232108-deployment",
+            "UnauthRoleName": "chattie-master-20190629232108-unauthRole",
+            "StackName": "chattie-master-20190629232108",
+            "StackId": "arn:aws:cloudformation:us-east-2:468982074756:stack/chattie-master-20190629232108/c2a579f0-9a70-11e9-9c32-0a5f3eca4dfa"
+        },
+        "categories": {
+            "auth": {
+                "chattiee71fac72": {}
+            }
+        }
+    }
+}

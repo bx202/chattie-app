@@ -1,0 +1,8 @@
+{
+	"auth": {
+		"chatappf891aff8": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}
